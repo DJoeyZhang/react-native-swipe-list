@@ -100,10 +100,10 @@ _getTintColor() {
 genCheckedImage() {
 	let source;
 	if (this.props.isIndeterminate) {
-		source = require('./img/ic_indeterminate_check_box.png');
+		source = require('../img/ic_indeterminate_check_box.png');
 	}
 	else {
-		source = this.props.isChecked ? require('./img/ic_check_box.png') : require('./img/ic_check_box_outline_blank.png');
+		source = this.props.isChecked ? require('../img/ic_check_box.png') : require('../img/ic_check_box_outline_blank.png');
 	}
 
 	return (

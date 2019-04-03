@@ -111,10 +111,8 @@ class SwipeListView extends Component {
 				this.safeCloseOpenRow();
 				this.openCellKey = null;
 			}
-		}else if(this.isRadioShow){
-			onItemTap(true,item);
 		}else{
-			onItemTap(false,item);
+			onItemTap(item);
 		}
 	}
 
